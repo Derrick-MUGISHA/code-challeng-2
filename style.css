@@ -1,245 +1,230 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; 
-}
-
-body{
-    background-color: #e8bebe;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* min-height: 100vh; */
-    color: black;
-}
-
-.header-content{
-    width: 100%;
-    /* height: 100vh; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* gap: 20px; */
-    color: white;
-    font-size: 18px;
-}
-.header-nav{
-    width: 23%;
-    height: 95vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: left;
-    gap: 35px;
-    color: white;
-    margin-left: 3px;
-    /* padding-top: 10px; */
-    padding-left: 30px;
-}
-.header-person{
-    height: 95vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    gap: 3px;
-    color: white;
-    margin-right: 2px;
-    padding-top: 10px;
-    padding-right: 30px;
-}
-.product-content{
-    width: 50%;
-    height: 100vh;
-    display: grid;
-    flex-direction: row;
-    justify-content: left;
-    gap: 20px;
-}
-.profile-container{
-    background-color: yellow;
-    width: 66%;
-    /* height: 100vh; */
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: left;
-    margin-left: 60px;
-}
-.product-grid-profile{
-    background-color: yellow;
-    width: 66%;
-    /* height: 100vh; */
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: left;
-    margin-left: 100px;
-    margin-top: 30px;
-    font-size: 90px;
-}
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #000;
-}
-.product-grid-items{
-    background-color: yellow;
-    width: 66%;
-    /* height: 100vh; */
-    display: inline-block;
-    flex-direction: row;
-    justify-content: left;
-    /* align-items: left; */
-    margin-left: 60px;
-    padding: 30px;   
-}
-
-.product-grid-icon{
-    font-size: 25px;
-    background-color: blue;
-    margin-right: 10px;
-}
-.product-grid-icon i{
-    color: white;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px
-}
-.product-grid{
-    background-color: yellow;
-    width: 66%;
-    /* height: 100vh; */
-    display: inline-block;
-    flex-direction: row;
-    justify-content: left;
-    /* align-items: left; */
-    margin-left: 60px;
-    padding: 30px; 
-}
-.product-grid-items2{
-    background-color: yellow;
-    width: 66%;
-    /* height: 100vh; */
-    display: inline-block;
-    flex-direction: row;
-    justify-content: left;
-    /* align-items: left; */
-    margin-left: 60px;
-    padding: 30px; 
-    font-size: 25px;  
-    text-align: center;
-}
-.product-grid-items2 i{
-    color: white;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px
-}
-.product{
-    background-color: red;
-    display: inline-block;
-}
-.product-intro h1{
-    font-size: 24px;
-    padding-left: 90px;   
-}
-
-.product-p{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 90px;
-    gap: 20px; 
-    background-color: yellowgreen;
-}
-.product-p p{
-    border: 1px solid black;
-    /* padding: 5px; */
-    border-radius: 10px;
-    font-size: 15px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 200px;
-    text-align: center;
-    color: white;
-    background-color: blue;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-}
-.product-hey { 
-    background-color: aqua;
-    margin-left: 90px;
-    margin-bottom: 20px;
-    border: 1px;
+    list-style: none;
+    text-decoration: none;
+    
     
 }
-.product-hey h6{
-    font-size: 20px;
-    color: white;
-    padding: 20px;
+body{
+    font-family: "Open Sans", sans-serif;
 }
-.product-hey p{
-    font-size: 15px;
-    color: white;
-    padding: 20px;
-}
-.socialmedia{
-    /* background-color: steelblue; */
-    display: inline-block;
-    flex-direction: column;
-    top: 0;
-    left: 30px;
-    padding-left: 800px;
-    padding-top: 0;
-    margin-top: 0;
-}
-.John-Doe{
-    /* background-color: steelblue; */
-    display: inline-block;
-    flex-direction: column;
-    top: 0;
-    left: 30px;
-    padding-left: 800px;
-    padding-top: 0;
-    margin-top: 0;  
-}
-.jone-doe-social{
+/* navbar */
+main{
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: left;
-    gap: 20px;
+    justify-content: space-between;
+    background-color: #CCCCCC;
+    
 }
-.jone-doe-social span{
-    font-size: 15px;
+
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color:#4D636F;
+    height: 53.8px;
+    left: 0;
+    right: 0;
+    
+}
+nav a{
     color: white;
-    padding-left: 90px;
 }
-.jone-doe-text p{
-    font-size: 15px;
-    color: white;
-    padding-left: 10px;
+
+
+.profile{
+   
 }
-.jone-doe-img{
+
+
+.profile img{
+    width: 23px;
+    height: 23px;
+    border-radius: 20px;
+                
+}
+.logo{
+    font-size: 20px;
+    background-color:#344c59;
+    height: 53.8px;
+    width: 116.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elements{
+    font-size: 20px;
+    background-color:#4D636F;
+    height: 53.8px;
+    width: 116.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    margin-right: 10px;
 }
-.jone-doe-img img{
-    display: inline;
-    width:  358.987px;
-    height: 239.325px;
-    /* border-radius: 50%; */
-    /* margin-right: 10px; */
-    edge
+
+
+
+
+section{
+margin: 1%;
+}
+
+
+
+
+.my-profile{
     
+height: 300px;
+width: 316.511px;
+padding: 2px 0;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 20px;
+
 }
+.my-profile img{
+    width: 105.995pxpx;
+    height: 105.995px;
+    border-radius: 100px;
+}
+.my-profile p{
+    padding: 7px;
+}
+
+
+
+
+
+ .about{
+height: 130px;
+width: 316.511px;
+padding: 2px;
+background-color:#6a7880;
+font-size: 18px;
+
+
+ }
+ .about a{
+    display: block;
+    padding: 9px 20px 9px 20px;
+    color: white;
+    
+ }
+
+
+
+
+
+
+ .tags{
+    height: 135px;
+    width: 316.511px;
+    padding: 2px;
+    background-color:  white;
+    padding: 2px ;
+    font-size: 15px;
+    font-family: serif;
+    display: inline-block;
+    
+ }
+ .tags span{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 20px;
+    
+ }
+
+ #ta{
+    display: flex;
+    gap: 3px;
+    margin:4px 20px;
+          
+ }
+
+ #ta p{
+     padding:5px 5px;
+     font-size: 13px;
+     font-family:Arial, Helvetica, sans-serif;
+     line-height: 10px; 
+      
+ }
+
+ #news{
+    background-color: #303E45;
+    color: white;
+ }
+ #w3schools{
+    background-color: #3A4B53;
+    color: white;
+ }
+ #labels{
+    background-color: #435761;
+    color: white;
+ }
+ #games{
+    background-color: #4D636F;
+    color: white;
+ }
+ #friends{
+    background-color: #57707D;
+    color: white;
+ }
+ #game{
+    background-color: #607D8B;
+    color: white;
+ }
+ #friend{
+    background-color: #7D97A5;
+    color: white;
+ }
+ #food{
+    background-color: #9EB1BB;
+    color: black;
+ }
+ #design{
+    background-color: #BECBD2;
+    color: black;
+ }
+ #art{
+    background-color: #DFE5E8;
+    color: black;
+ }
+ #photographs{
+    background-color: #F5F7F8;
+    color: black;
+ }
+
+
+
+
+
+
+
+ 
+ .nb{
+    
+    background-color: #DFE5E8;
+    height: 114.648px;
+    width: 316.511px;
+    
+ }
+ .nb span{
+    display: flex;
+    justify-content: first baseline;
+    margin:0 20px;
+    font-size: 18px;
+    padding: 20px 0 20px 0;
+ }
+ .nb p{
+    padding: 0  0 10px 0;
+    max-width: 300px;
+    margin: 0 20px;
+ }
