@@ -1,162 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>product-landing-page</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Social Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="header-content">
-        <nav class="header-nav">
-            <div class="menu-toggle"><i class="fa-solid fa-house"></i> Logo</div>
-            <div class="menu-toggle"><i class="fa-solid fa-earth-asia"></i></div>
-            <div class="menu-toggle"><i class="fa-solid fa-user"></i></div>
-            <div class="menu-toggle"><i class="fa-solid fa-envelope"></i></div>
-            <div class="menu-toggle"><i class="fa-solid fa-bell"></i></div>
-        </nav>
-        <div class="header-person">
-            <div class="menu-toggle"><i class="fa-solid fa-house"></i> Logo</div>
+    <div class="grid-container">
+        <div class="sidebar">
+            <nav class="header-nav">
+                <div class="menu-toggle"><i class="fa-solid fa-house"></i> Logo</div>
+                <div class="menu-toggle"><i class="fa-solid fa-earth-asia"></i></div>
+                <div class="menu-toggle"><i class="fa-solid fa-user"></i></div>
+                <div class="menu-toggle"><i class="fa-solid fa-envelope"></i></div>
+                <div class="menu-toggle"><i class="fa-solid fa-bell"></i></div>
+            </nav>
         </div>
-    </div>
-    </div>
-    <div class="product-content">
-        <div class="product-grid">
-            <div class="profile-container">
-                <h1>My Profile</h1>
-            </div>
-            <div class="product-grid-profile">
-                <i class="fa-regular fa-user"></i>
-            </div>
-            <hr>
-            <div class="product-grid-items">
-                <div class="product-grid-icon"><i class="fa-solid fa-pencil"></i> Designer, UI</div>
-                <div class="product-grid-icon"><i class="fa-solid fa-house"></i> London, UK</div>
-                <div class="product-grid-icon"><i class="fa-solid fa-cake-candles"></i> April 1, 1988</div>
-            </div>
-        </div>
-        <div class="product-grid">
-            <div class="product-grid-items2">
-                <div class="product-grid-icon"><i class="fa-solid fa-circle-notch"></i> My Groups</div>
-                <div class="product-grid-icon"><i class="fa-regular fa-calendar-check"></i> My Events</div>
-                <div class="product-grid-icon"><i class="fa-solid fa-users-viewfinder"></i> MY pothos</div>
+
+        <div class="main-content">
+            <div class="profile-section">
+                <div class="profile-container">
+                    <h1>My Profile</h1>
+                    <div class="product-grid-profile">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <hr>
+                    <div class="product-grid-items">
+                        <div class="product-grid-icon"><i class="fa-solid fa-pencil"></i> Designer, UI</div>
+                        <div class="product-grid-icon"><i class="fa-solid fa-house"></i> London, UK</div>
+                        <div class="product-grid-icon"><i class="fa-solid fa-cake-candles"></i> April 1, 1988</div>
+                    </div>
+                </div>
+
+                <div class="groups-section">
+                    <div class="product-grid-items2">
+                        <div class="product-grid-icon"><i class="fa-solid fa-circle-notch"></i> My Groups</div>
+                        <div class="product-grid-icon"><i class="fa-regular fa-calendar-check"></i> My Events</div>
+                        <div class="product-grid-icon"><i class="fa-solid fa-users-viewfinder"></i> My Photos</div>
+                    </div>
+                </div>
+
+                <div class="interests-section">
+                    <div class="product">
+                        <div class="product-intro">
+                            <h1>Interests</h1>
+                        </div>
+                        <div class="product-p">
+                            <p>NEWS</p>
+                            <p>W3schools</p>
+                            <p>Labels</p>
+                            <p>Games</p>
+                            <p>Friends</p>
+                            <p>Games</p>
+                            <p>Friends</p>
+                            <p>Design</p>
+                            <p>Art</p>
+                            <p>Photos</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="product">
-                <div class="product-intro">
-                    <h1>Interests</h1>
+            <div class="posts-section">
+                <div class="socialmedia">
+                    <input type="text" placeholder="Status: Feeling Blue">
+                    <button><i class="fa-solid fa-pencil"></i>Post</button>
                 </div>
-                <div class="product-p">
-                    <p>NEWS</p>
-                    <p>W3schools</p>
-                    <p>Labels</p>
-                    <p>Games</p>
-                    <p>Friends</p>
-                    <p>Games</p>
-                    <p>Friends</p>
-                    <p>Design</p>
-                    <p>Art</p>
-                    <p>Photos</p>
+
+                <div class="posts">
+                    <div class="John-Doe">
+                        <div class="jone-doe-social">
+                            <i class="fa-regular fa-user"></i>John Doe
+                            <span>1 minute</span>
+                        </div>
+                        <hr>
+                        <div class="jone-doe-text">
+                            <p>It is important to take care of the patient, and the patient will be followed, but at the same time they occur as a result of great pain and suffering.</p>
+                            <div class="jone-doe-img">
+                                <img src="./images/lights.jpg" alt="lights">
+                                <img src="./images/nature.jpg" alt="nature">
+                                <button><i class="fa-regular fa-thumbs-up"></i>like</button>
+                                <button><i class="fa-solid fa-comment"></i>comment</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="John-Doe">
+                        <div class="jone-doe-social">
+                            <i class="fa-regular fa-user"></i>John Doe
+                            <p>16 minute</p>
+                        </div>
+                        <hr>
+                        <div class="jone-doe-text">
+                            <p>It is important to take care of the patient, and the patient will be followed, but at the same time they occur as a result of great pain and suffering.</p>
+                            <button><i class="fa-regular fa-thumbs-up"></i>like</button>
+                            <button><i class="fa-solid fa-comment"></i>comment</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="product-hey">
-                <h6>Hey!</h6>
-                <p>People are looking at your profile. Find out who.</p>
+
+            <div class="sidebar-right">
+                <div class="product-hey">
+                    <h6>Hey!</h6>
+                    <p>People are looking at your profile. Find out who.</p>
+                </div>
+
+                <div class="blog">
+                    <div class="blog-upcontent">
+                        <h1>Upcoming Events:</h1>
+                        <div class="blog-upcontent-img">
+                            <img src="./images/forest.jpg" alt="forest">
+                        </div>
+                        <div class="blog-upcontent-text">
+                            <h2>Holidays</h2>
+                            <p>Friday 15:00</p>
+                            <button>info</button>
+                        </div>
+                    </div>
+
+                    <div class="blog-friend-request">
+                        <h4>Friend Request</h4>
+                        <i class="fas fa-female"></i>
+                        <div class="friend-request-buttons">
+                            <button><i class="fa-solid fa-check"></i></button>
+                            <button><i class="fa-solid fa-times"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="blog-upcontent-adds">
+                        <p>ADDS</p>
+                    </div>
+
+                    <div class="blog-upcontent-bug">
+                        <i class="fa-solid fa-bug"></i>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="socialmedia">
-        <pre>Social Media template by w3.css</pre>
-        <input type="text" placeholder="Status: Feeling Blue">
-        <button i class="fa-solid fa-pencil"></i>Post</button>
-    </div>
-    <div class="John-Doe">
-        <div class="jone-doe-social">
-            <i class="fa-regular fa-user"></i>John Doe
-            <span>1 minute</span>
-        </div>
-        <hr>
-        <div class="jone-doe-text">
-            <p>It is important to take care of the patient, and the patient will be followed, but at the same time they
-                occur as a result of great pain and suffering. For to come to the smallest detail, no one should
-                practice
-                any kind of work unless he derives some benefit from it.</p>
-            <div class="jone-doe-img">
-                <img src="./images/lights.jpg" alt=" lights">
-                <img src="./images/nature.jpg" alt=" lights">
-                <button i class="fa-regular fa-thumbs-up"></i></button>like
-                <button i class="fa-solid fa-comment"></i></i></button>comment
-            </div>
-        </div>
-    </div>
-    <div class="John-Doe">
-        <div class="jone-doe-social">
-            <i class="fa-regular fa-user"></i>John Doe
-            <p>16 minute</p>
-        </div>
-        <hr>
-        <div class="jone-doe-text">
-            <p>It is important to take care of the patient, and the patient will be followed, but at the same time they
-                occur as a result of great pain and suffering. For to come to the smallest detail, no one should
-                practice
-                any kind of work unless he derives some benefit from it.</p>
-            <button i class="fa-regular fa-thumbs-up"></i></button>like
-            <button i class="fa-solid fa-comment"></i></i></button>comment
-        </div>
-    </div>
-    <div class="John-Doe">
-        <div class="jone-doe-social">
-            <i class="fa-regular fa-user"></i>John Doe
-            <p>32 minute</p>
-        </div>
-        <hr>
-        <span>Have you seen this?</span>
-        <div class="jone-doe-text">
-            <img src="./images/nature.jpg" alt=" lights">
-            <p>It is important to take care of the patient, and the patient will be followed, but at the same time they
-                occur as a result of great pain and suffering. For to come to the smallest detail, no one should
-                practice
-                any kind of work unless he derives some benefit from it.</p>
-            <button i class="fa-regular fa-thumbs-up"></i></button>like
-            <button i class="fa-solid fa-comment"></i></i></button>comment
-        </div>
-    </div>
-    <div class="blog">
-        <div class="blog-upcontent">
-            <h1>Upcoming Events:</h1>
-            <div class="blog-upcontent-img">
-                <img src="./images/forest.jpg" alt=" lights">
-            </div>
-            <div class="blog-upcontent-text">
-                <h2>Holidays</h2>
-                <p>Friday 15:00</p>
-                <button>info</button>
-            </div>
-        </div>
-        <div class="blog-upcontent-img">
-            <h4>Friend Request</h4>
-            <i class="fas fa-female"></i>
-            <button><i class="fa-solid fa-check"></i></button>
-            <button><i class="fa-solid fa-check"></i></button>
-        </div>
-        <div class="blog-upcontent-adds">
-            <p>ADDS</p>
-        </div>
-        <div class="blog-upcontent-bug">
-            <i class="fa-solid fa-bug"></i>
         </div>
     </div>
 </body>
-
 </html>
