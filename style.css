@@ -26,7 +26,18 @@ nav{
     height: 53.8px;
     left: 0;
     right: 0;
+    color: white;
     
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    gap: 70px;
+}
+.profile{
+    right: 30px;
+    margin-left: 1100px;
 }
 nav a{
     color: white;
