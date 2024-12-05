@@ -486,4 +486,137 @@ img {
   margin-top: 20px;
   padding-left: 20px;
 }
+.three{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-right: 20px;
+  margin-top: 20px;
+  /* width: 733.987px; */
+  height: 300px;
+  padding-right: 20px;
 
+}
+.open-evens{
+  background-color: #ffffff;
+  height:  346.95px;
+  width: 227.988px;
+  /* padding:  0 16px 0 16px; */
+  margin-right: 100px;
+
+}
+.open-evens p{
+  font-size: 14px;
+  color: #777777;
+  display: flex;
+  line-height: 20px;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 60px;
+}
+.open-evens img{
+  height: 130.65px;
+  width:  195.988px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.open-evens h5{
+  font-size: 16px;
+  color: #000000;
+  display: flex;
+  /* line-height: 20px; */
+  /* padding-top: 20px; */
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.open-evens span{
+  font-size: 14px;
+  color: #777777;
+  display: flex;
+  line-height: 20px;
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.open-evens button{
+  background-color: #57707d;
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+.friend{
+  height: 243.587px;
+  width: 227.988px;
+  background-color: #ffffff;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+.friend img{
+  height: 130.65px;
+  width:  195.988px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.friend span{
+  font-size: 14px;
+  color: #777777;
+  display: flex;
+  line-height: 20px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.friend button{
+  background-color: #57707d;
+  border: none;
+  color: white;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 1px;
+}
+.ads{
+  height: 103px;
+  width: 227.988px;
+  background-color: #ffffff;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+.ads p{
+  font-size: 24px;
+  color: #777777;
+  display: flex;
+  line-height: 20px;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.bug{
+  height: 103px;
+  width: 227.988px;
+  background-color: #ffffff;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+#bug{
+  font-size: 34px;
+  color: black;
+  display: flex;
+  line-height: 20px;
+  margin-left: 90px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
