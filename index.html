@@ -4,63 +4,61 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>coding-2</title>
+    <title>Coding Challenge 2</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <script src='main.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <!-------------------------------- navbar-------------------------------->
+
     <nav class="nav-bar">
         <div class="logo">
+            
             <a href="#"><i class="fa-solid fa-house-chimney"></i> logo</a>
         </div>
+        
         <div class="elements">
-            <i class="fa-solid fa-earth-americas"></i>
-            <i class="fa-solid fa-user"></i>
-            <i class="fa-solid fa-envelope"></i>
-            <div>
-                <i class="fa-solid fa-bell"></i>
-                <p>3</p>
-            </div>
+            <a href="#"><i class="fa-sharp fa-solid fa-earth-africa"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-solid fa-bell"></i></a>
         </div>
         <div class="profile">
             <img src="/images/avatar2.png" alt="profile">
         </div>
+    
     </nav>
     <main>
 
         <section class="one">
-            <h1>My Profile</h1>
             <div class="my-profile">
-                <img src="/images/avatar3.png" alt="avatar 1">
+                <span>My Profile</span>
+                <img src="/images/avatar3.png" alt="">
 
-                <p><i class="fa-solid fa-pencil"></i> Designer, UI</p>
-                <p><i class="fa-solid fa-house-chimney"></i> London, UK</li>
-                <p><i class="fa-solid fa-cake-candles"></i> April 1, 1988</p>
+                <div class="p">
+                    <p><i class="fa-sharp fa-solid fa-pencil"></i>  Designer, UI</p>
+                    <p><i class="fa-solid fa-house-chimney"></i>  London, UK</li>
+                    <p><i class="fa-solid fa-cake-candles"></i>  April 1, 1988</p>
+                </div>
             </div>
             <br>
 
-            <div class="profile-actions" aria-label="Profile Actions">
-                <a href="#" aria-label="My Groups">
-                    <i class="fa-solid fa-rotate-right" aria-hidden="true"></i> My Groups
-                </a>
-                <a href="#" aria-label="My Events">
-                    <i class="fa-regular fa-calendar-check" aria-hidden="true"></i> My Events
-                </a>
-                <a href="#" aria-label="My Photos">
-                    <i class="fa-solid fa-user-group" aria-hidden="true"></i> My Photos
-                </a>
+            <div class="about">
+                <a href="#"> <i class="fa-solid fa-circle-notch"></i> My Groups</a>
+                <a href="#"> <i class="fa-regular fa-calendar-check"></i> My Events</a>
+                <a href="#"> <i class="fa-solid fa-users"></i> My Photos</a>
             </div>
+            <br>
+
             <div class="tags">
                 <br>
                 <span>Interests</span>
-                <br>
 
-                <div id="ta">
+                <div class="tag1" id="ta">
                     <p id="news">News</p>
                     <p id="w3schools">W3Schools</p>
                     <p id="labels">Labels</p>
@@ -96,26 +94,28 @@
             <div class="status">
                 <span>Social Media template by w3.css</span>
                 <input type="text" name="status" id="status" placeholder="Status: Feeling Blue">
-                <button>&#xEFDF; Post</button>
+                <button><i class="fa-solid fa-pencil"></i> Post</button>
             </div>
+            <br>
             <div class="john-doe">
                 <div class="john">
-                    <img src="/images/avatar2.png" alt="profile picture">
-                </div>
-                <h3>John Doe</h3>
+                    <img src="/images/avatar2.png" alt="">
+                    <h3>John Doe</h3>
                     <span>1 minute</span>
-                <p>It is important to take care of the patient, and the patient will be followed, but at the same time
-                    they occur as a result of great pain and suffering. For to come to the smallest detail, no one
-                    should practice any kind of work unless he derives some benefit from it.</p>
-                <div class="images">
-                    <img src="/images/lights.jpg" alt="nature" id="nature">
-                    <img src="/images/nature.jpg" alt="forest" id="forest">
                 </div>
-                <div class="button1">
-                    <button>&#xF206; Like</button>
-                    <button> &#xEB4C; Comment</button>
+                <p>It is very important to take care of the patient, the patient will be followed, but at the same time
+                    they occur as a lot of work and pain. For to come to the smallest detail, no one should practice any
+                    kind of work unless he derives some benefit from it.</p>
+                <div class="images">
+                    <img src="/images/lights.jpg" alt="">
+                    <img src="/images/nature.jpg" alt="">
+                </div>
+                <div class="button">
+                    <button><i class="fa-solid fa-thumbs-up"></i> Like</button>
+                    <button> <i class="fa-solid fa-comment"></i> Comment</button>
                 </div>
             </div>
+            <br>
             <div class="jane-doe">
                 <div class="jane">
                     <img src="/images/avatar5.png" alt="">
@@ -125,11 +125,12 @@
                 <p>It is important to take care of the patient, and the patient will be followed, but at the same time
                     they occur as a result of great pain and suffering. For to come to the smallest detail, no one
                     should practice any kind of work unless he derives some benefit from it.</p>
-                <div class="button2">
-                    <button>&#xF206; Like</button>
-                    <button &#xEB4C>Comment</button>
+                <div class="button">
+                    <button><i class="fa-solid fa-thumbs-up"></i> Like</button>
+                    <button> <i class="fa-solid fa-comment"></i> Comment</button>
                 </div>
             </div>
+            <br>
             <div class="angie-jane">
                 <div class="angie">
                     <img src="/images/avatar6.png" alt="">
@@ -138,14 +139,14 @@
                 </div>
                 <p>Have you seen this?</p>
                 <div class="image">
-                    <img src="./images/nature.jpg" alt="">
+                    <img src="/images/nature (1).jpg" alt="">
                     <p> It is important to take care of the patient, and the patient will be followed, but at the same
                         time they occur as a result of great pain and suffering. For to come to the smallest detail, no
                         one should practice any kind of work unless he derives some benefit from it.</p>
                 </div>
-                <div class="button3">
-                    <button>&#xF206; Like</button>
-                    <button> &#xEB4C; Comment</button>
+                <div class="button">
+                    <button><i class="fa-solid fa-thumbs-up"></i> Like</button>
+                    <button> <i class="fa-solid fa-comment"></i> Comment</button>
                 </div>
             </div>
 
@@ -154,32 +155,38 @@
 
 
         <section class="three">
-            <div class="open-evens">
-                <p>Upcoming Events:</p>
+            <div class="upcoming-events">
+                <span>Upcoming Events:</span>
                 <img src="/images/forest.jpg" alt="">
-                <h5>Holidays</h5>
-                <span>Friday 15:00</span>
+                <h6>Holiday</h6>
+                <p>Friday 15:00</p>
                 <button>Info</button>
             </div>
-            <div class="friend">
+            <br>
+            <div class="friendrequest">
                 <span>Friend Request</span>
                 <img src="/images/avatar6 (1).png" alt="">
-                <button>Accept</button>
-                <button>Denie</button>
+                <p> Jane Doe</p>
+                <div class="buttons">
+                    <button class="accept">Accept</button>
+                    <button class="denie"> Cancel</button>
+                </div>
             </div>
+            <br>
             <div class="ads">
-                <p>ADS</p>
+                <span>ADS</span>
             </div>
-            <div class="bug">
-                <i class="fa-solid fa-bug" id="bug"></i>
+            <br>
+            <div class="insect">
+                <img src="/images/bug.png" alt="">
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div>
-            <p>Footer</p>
+    <footer>
+        <div class="footer">
+            <span>Footer</span>
         </div>
-        <div>
+        <div class="powered">
             <span>Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></span>
         </div>
     </footer>
